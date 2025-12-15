@@ -1,0 +1,37 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input, .auth-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.auth-form input:focus, .auth-form select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.auth-form button:hover:not(:disabled) {
+  background-color: #764ba2;
+}
+
+.auth-form button:disabled {
+  background-color: #999;
+}

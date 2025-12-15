@@ -1,0 +1,35 @@
+{
+  "name": "barber-shop-backend",
+  "version": "1.0.0",
+  "description": "Backend API for barber shop appointment system",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "build": "echo 'No build required'",
+    "test": "jest"
+  },
+  "keywords": [
+    "barber",
+    "appointments",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "nodemailer": "^7.0.11",
+    "sqlite3": "^5.1.7",
+    "twilio": "^5.10.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
