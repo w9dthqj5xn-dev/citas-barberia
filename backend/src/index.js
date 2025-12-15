@@ -7,8 +7,13 @@ require('./utils/sqlite');
 
 const app = express();
 
-// Middleware
-app.use(cors());
+// Middleware - CORS configurado para producción
+app.use(cors({
+  origin: '*', // Permitir cualquier origen (puedes restringirlo después)
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes
