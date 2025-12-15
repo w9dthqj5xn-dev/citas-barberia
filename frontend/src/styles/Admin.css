@@ -26,7 +26,7 @@
 }
 
 .add-btn {
-  background-color: #667eea;
+  background-color: #d4af37;
   color: white;
   padding: 12px 24px;
   border-radius: 5px;
@@ -37,7 +37,7 @@
 }
 
 .add-btn:hover {
-  background-color: #764ba2;
+  background-color: #b8941f;
 }
 
 .admin-form {
@@ -67,14 +67,14 @@
 
 .admin-form input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #d4af37;
   box-shadow: 0 0 5px rgba(102, 126, 234, 0.3);
 }
 
 .submit-btn {
   width: 100%;
   padding: 12px;
-  background-color: #667eea;
+  background-color: #d4af37;
   color: white;
   font-weight: bold;
   border-radius: 5px;
@@ -84,7 +84,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #764ba2;
+  background-color: #b8941f;
 }
 
 .barbers-admin-list {
@@ -108,7 +108,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #d4af37;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
